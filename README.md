@@ -100,3 +100,33 @@ Training is performed in batches to simulate scalable training pipelines:
 
 Instead of only categorical output, the model provides:
 
+This gives a continuous value between:
+
+- 0 → Low confidence
+- 1 → High confidence
+
+---
+## 🛠 Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+
+---
+## 🎯 Key Contributions
+
+✔ Ensemble Random Forest with greedy feature selection  
+✔ Fertility scoring on continuous 0–1 scale  
+✔ Batch-wise training pipeline  
+✔ Multi-class ROC evaluation  
+✔ Professional visualization suite  
+✔ Exportable trained model  
+✔ Automated PDF reporting 
+
+---
+## 📜 License
+
+This project is for academic and research purposes.
